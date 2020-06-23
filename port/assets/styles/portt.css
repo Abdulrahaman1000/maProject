@@ -1,0 +1,256 @@
+
+*::before,
+*::after{
+box-sizing: border-box;
+}
+*:focus{
+outline: none;
+}
+body{
+position: absolute;	
+padding:0;
+margin: 0;
+background:green;
+color: white;
+font-family: "Oxygen",san-serif;
+
+}
+a{
+	text-decoration:none;
+}
+img{
+	width: 100%;
+}
+.home img{
+	width:90%;
+	-webkit-filter: grayscale(100%)
+	contrast(100%);
+	filter: grayscale(100%) contrast(200%)
+brightness(60%);
+}
+.folio img {
+	filter: grayscale(100%);
+}
+
+aside {
+	position: fixed;
+	background: #222;
+	top: 0px;
+	left:0px;
+	width: 120px;
+	height: 100%;
+	overflow: none;
+	z-index:1;
+	text-align:center;
+	padding: o;
+}
+.material-icons{
+	font-size: 36px;
+}
+aside a{
+	display: block;
+	padding: 15px 0;
+	color: white;
+	transition: all 0.35s;
+	text-transform: uppercase;
+	font-size: 0.75em;
+	letter-spacing: 2px;
+}
+aside p{
+	margin:0;
+	padding: 0;
+	
+}
+aside a:hover{
+	background:#000;
+}
+aside nav a:nth-child(2){
+	background:#000;
+}
+aside nav a:nth-child(2):hover{
+	background:#b2b2b2;
+	color: #222;
+}
+main{
+	margin-top: 1%;
+	max-width: 95%;
+	background: #000;
+	margin-left:20%;
+	margin-right:7%;
+	margin-bottom:-10%;
+	padding: 12px 50px 12px 50px;
+}
+header{
+	
+	text-align: center;
+	letter-spacing: 2px;
+}
+header h1{
+	margin-top: -5%;
+	font-weight: bold;
+	font-size:4em;
+	letter-spacing: 4px;
+}
+header h2{
+	margin-top: -5%;
+	font-weight:300;
+	font-size:1em;
+	letter-spacing:4px;
+	color: #b2b2b2;
+}
+.about,
+.folio,
+.contact{
+	max-width: 95%;
+	margin-left:20%;
+	margin-right:7%;
+	background: black;
+
+	letter-spacing: 1px;
+}
+.about p{
+	position: absolute;
+	left: 140px;
+	
+	
+}
+.container{
+	max-width: 95%;
+	position: absolute;
+	left: 23%;
+	width:70%;
+	background-color:red;
+}
+.skills{
+	text-align: right;
+	padding-right:29px;
+	line-height:30px;
+	color:wite;
+	background-color: #424242;
+}
+.figma{
+	width:95%;
+}
+.html{
+	width: 80%;
+}
+.css{
+	width: 75%;
+}
+.javascript{
+	width: 65%;
+}
+.java{
+	width: 90%;
+}
+.mobile-nav{
+	margin-top: 2%;
+	word-spacing:60px;
+	background: white;
+	width: 600px;
+	position: absolute;
+	right: 150px;
+
+	
+}
+
+body {
+background-color: red;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 90%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
